@@ -1,0 +1,233 @@
+*{
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                text-decoration: none;
+            }
+            .top{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .top img{
+                width: 26%;
+                margin: 16px 0;
+                margin-left: 18px;
+            }
+            .banner{
+                width: 100%;
+            }
+            .banner img{
+                height: 100%;
+            }
+            .t1{
+                display: flex;
+                align-items: center;
+                color: #999999;
+            }
+            .t1 div{
+                width: 40px;
+                text-align: center;
+            }
+            /*.t1 span:nth-child(1){
+                display: inline-block;
+                width: 30px;
+                height: 45px;
+            }
+            .t1 span:nth-child(2){
+                display: inline-block;
+                height: 33px;
+                width: 30px;
+            }*/
+            .nav{
+                width: 100%;
+                border-bottom: 10px solid #ccc;
+                margin-top: 10px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                flex-wrap: wrap;
+                font-size: 14px;
+                color: #333;
+            }
+            .nav li{
+                width: 25%;
+                margin-bottom: 10px;
+                text-align: center;
+            }
+            .nav p{
+                margin-top: 8px;
+            }
+            .nav img{ 
+                width: 60%;
+            }
+            .biao{
+                width: 100%;
+                margin: 10px 0;
+                display: flex;
+            }
+            .biao h4{
+                margin:0 6px;
+            }
+            .biao p{
+                color: #999;
+            }
+            .ysu{
+                width:5px ;
+                height: 24px;
+                margin-left: 10px;
+                background: #3AC893;
+            }
+            .main{
+                width: 100%;
+                text-align: center;
+            }
+            .main img{
+                width: 94%;
+            }
+            .tu{
+                font-size: 5rem;
+                position: fixed;
+                top: 250px;
+                left:158px;
+            }
+            .tabe{
+                width: 100%;
+                border-bottom: 10px solid #ccc;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+               li{
+                   margin: 10px 0;
+               }
+                span{
+                   color:#3AC893 ; 
+                }
+                a{
+                    font-size: 10px;
+                    color: #000000;
+                }
+            }
+            .zhuc{
+                width: 100%;
+                text-align: center;
+                border-bottom: 10px solid #ccc;
+                input{
+                    width: 70%;
+                    height: 4.25rem;
+                    border: 1px solid #eee;
+                    border-radius: 5px;
+                    margin-bottom: 25px;
+                }
+                button{
+                    width: 70%;
+                    color: #fff;
+                    height: 4.25rem;
+                   background:#FEB605 ;
+                    border-radius: 5px;
+                    margin-bottom: 36px;
+                }
+                
+            }
+            .shej{
+                width: 100%;
+                margin: 10px 0;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                li{
+                    width: 30%;
+                    text-align: center;
+                    img{
+                        width: 70%;
+                    }
+                }
+                p{
+                    font-size: 20px;
+                    color: #000;
+                }
+                div{
+                    width: 60px;
+                    height: 22px;
+                    margin: auto;
+                    color: #fff;
+                    border-radius: 3px;
+                    background: #39C893;
+                    font-size: 14px;
+                }
+            }
+            .huan{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                border-bottom: 10px solid #ccc;
+                div{
+                    width: 46%;
+                    height: 40px;
+                    line-height: 40px;
+                    color: #39C893;
+                    text-align: center;
+                    border: 1px solid #ccc;
+                    margin: 20px 0;
+                    border-radius: 3px;
+                }
+                a{
+                   color: #39C893; 
+                }
+                
+            }
+            .v1{
+                width: 100%;
+                text-align: center;
+                img{width: 98%;}
+            }
+            .v2{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                img{
+                    margin-top: 8px;
+                    width: 48%;
+                }
+            }
+            .a1{
+                width: 100%;
+                border-bottom: 1px solid #eee;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                img{
+                    width: 30%;
+                    margin: 20px;
+                }
+                span{
+                    color: gray;
+                    font-size: 12px;
+                }
+            }
+            .zhi{
+                width: 100%;
+                padding: 20px;
+                border-bottom: 10px solid #ccc;
+                
+            }
+            ul{
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                li{
+                  width: 25%;
+                  text-align: center;  
+                }
+                
+            }
+            .footer{
+                text-align: center;
+                margin: 10px 0;
+            }
